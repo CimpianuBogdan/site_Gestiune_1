@@ -1,0 +1,38 @@
+@import url('base.css');
+
+.container {
+    border-top: 5px solid #ffc107;
+}
+
+textarea, input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #e0a800;
+}
+
+#confirmationMessage, #errorMessage {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#backButton {
+    margin-top: 10px;
+}

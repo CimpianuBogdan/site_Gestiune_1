@@ -1,0 +1,17 @@
+@import url('base.css');
+
+.container {
+    border-top: 5px solid #17a2b8;
+}
+
+select {
+    background-color: #d1ecf1;
+}
+
+button {
+    background-color: #17a2b8;
+}
+
+button:hover {
+    background-color: #138496;
+}
